@@ -1,0 +1,46 @@
+body {
+    background: white;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#07beb8', endColorstr='#07beb8', GradientType=0);
+    background: -webkit-linear-gradient(to bottom, #07beb8 50%, #265bce) !important;
+    background: -moz-linear-gradient(to bottom, #07beb8 50%, #265bce) !important;
+    background: -ms-linear-gradient(to bottom, #07beb8 50%, #265bce) !important;
+    background: -o-linear-gradient(to bottom, #07beb8 50%, #265bce) !important;
+    background: linear-gradient(to bottom, #07beb8 50%, #265bce) !important;
+    color: white;
+}
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+div.well {
+    height: 250px;
+}
+
+.Absolute-Center {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.Absolute-Center.is-Responsive {
+    width: 50%;
+    height: 50%;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 40px;
+}
+
+.col-sm-20 col-md-18 col-md-offset-1 {
+    width: 260px;
+    height: 260px;
+}
+
+#img {
+    background-image: url("temp.png");
+    border: 2px solid rgb(92, 87, 87);
+    border-radius: 4px;
+    padding: 5px;
+    width: 282px;
+    height: 155px;
+}
